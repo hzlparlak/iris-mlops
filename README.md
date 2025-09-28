@@ -33,7 +33,7 @@ iris-mlops/
 ├── dvc.lock            # DVC lock dosyası
 ├── requirements.txt    # Gerekli kütüphaneler
 └── README.md           # Proje dokümantasyonu
-
+```
 
 # ⚙️ Kurulum
 
@@ -41,7 +41,7 @@ iris-mlops/
 
 ```bash
 pip install -r requirements.txt
-
+```
 ## 🔄 DVC Pipeline Çalıştır
 
 Veri hazırlama ve model eğitim pipeline’ını DVC ile çalıştırabilirsiniz:
@@ -49,10 +49,11 @@ Veri hazırlama ve model eğitim pipeline’ını DVC ile çalıştırabilirsini
 ```bash
 # Veri hazırlama + model eğitimi
 dvc repro
-
+```
 # Sonuçları kontrol et
+```bash
 dvc metrics show
-
+```
 # 🧪 Kullanım
 
 ## 1️⃣ Veri İndirme
@@ -67,7 +68,7 @@ Veri temizleme adımında, ham veriler analiz ve modelleme için hazır hâle ge
 
 ```bash
 python src/clean_data.py
-
+```
 ## 3️⃣ 🏋️ Model Eğitimi
 
 Model eğitimi adımı, veriyi kullanarak makine öğrenmesi modellerinin oluşturulmasını ve değerlendirilmesini içerir.  
@@ -76,6 +77,7 @@ Model eğitimi adımı, veriyi kullanarak makine öğrenmesi modellerinin oluşt
 
 ```bash
 python src/train_model.py
+```
 ## 4️⃣ 📊 MLflow ile Deney Takibi
 
 MLflow ile model deneylerinizi kaydedebilir ve takip edebilirsiniz.  
@@ -85,6 +87,7 @@ MLflow ile model deneylerinizi kaydedebilir ve takip edebilirsiniz.
 ```bash
 python src/train_model_mlflow.py
 mlflow ui
+```
 Ardından tarayıcıda MLflow arayüzünü açın:  
 👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
@@ -100,3 +103,4 @@ MLflow ile yapılan işlemler:
 - FastAPI ile REST API entegrasyonu  
 - Docker ile konteynerleştirme  
 - GitHub Actions ile CI/CD süreci
+
