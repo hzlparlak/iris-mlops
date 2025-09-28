@@ -59,7 +59,7 @@ dvc metrics show
 ## 1️⃣ Veri İndirme
 ```bash
 python src/download_data.py
-
+```
 ## 2️⃣ 🧹 Veri Temizleme
 
 Veri temizleme adımında, ham veriler analiz ve modelleme için hazır hâle getirilir.  
@@ -103,4 +103,5 @@ MLflow ile yapılan işlemler:
 - FastAPI ile REST API entegrasyonu  
 - Docker ile konteynerleştirme  
 - GitHub Actions ile CI/CD süreci
+
 
