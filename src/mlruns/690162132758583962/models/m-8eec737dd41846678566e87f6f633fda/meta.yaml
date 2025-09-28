@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/hazal/OneDrive/Masa%C3%BCst%C3%BC/iris-mlops/src/mlruns/690162132758583962/models/m-8eec737dd41846678566e87f6f633fda/artifacts
+creation_timestamp: 1758829468908
+experiment_id: '690162132758583962'
+last_updated_timestamp: 1758829482951
+model_id: m-8eec737dd41846678566e87f6f633fda
+model_type: null
+name: model
+source_run_id: fc1798d38edb4ba58baad9bd2c35ad2f
+status: 2
+status_message: null

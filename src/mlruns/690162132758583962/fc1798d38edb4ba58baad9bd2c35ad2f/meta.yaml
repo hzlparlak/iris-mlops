@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/hazal/OneDrive/Masa%C3%BCst%C3%BC/iris-mlops/src/mlruns/690162132758583962/fc1798d38edb4ba58baad9bd2c35ad2f/artifacts
+end_time: 1758829483109
+entry_point_name: ''
+experiment_id: '690162132758583962'
+lifecycle_stage: active
+run_id: fc1798d38edb4ba58baad9bd2c35ad2f
+run_name: random_forest_experiment
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1758829468443
+status: 3
+tags: []
+user_id: hazal
